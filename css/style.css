@@ -1,9 +1,16 @@
+html, body, #home{
+    height: 100%;
+}
+
 body{
     background: url(../imagens/capa.png),
                 url(../imagens/ruido.png),
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+/* Navbar */
 
 nav.navbar-transparente{
     background: rgba(0, 0, 0, 0.6);
@@ -28,3 +35,75 @@ nav.navbar-transparente{
     background-color: white;
     margin: 12px 15px;
 }
+
+/* Capa */
+
+.capa{
+    text-align: center;
+    color: white;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background-color: #7c26f8;
+}
+
+.btn-roxo:hover {
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Sobre */
+
+h1{
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .btn-custom {
+        margin: 10px 15px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .btn-custom {
+        margin: 10px 15px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
