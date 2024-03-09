@@ -1,5 +1,6 @@
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -71,11 +72,55 @@ nav.navbar-transparente{
     color: black;
 }
 
-/* Sobre */
+/* Estrutura conteúdos */
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos{
+    background-color: white;
+}
+
+#servicos h2,#servicos h3{
+    color: #7c26f8;
+}
+
+#recursos{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Tipografia */
 
 h1{
     font-weight: 900;
     margin-bottom: 50px;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
