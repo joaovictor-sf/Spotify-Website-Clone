@@ -52,13 +52,35 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 capa">
-            <h1 class="display-1">Música para todos</h1>
-            <a href="" class="btn btn-custom btn-roxo btn-lg">
-              Aproveite o Spotify Free
+            
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel"><!-- Carrossel -->
+              <div class="carousel-item active">
+                <h1 class="display-1">Música para todos</h1>
+                <a href="" class="btn btn-custom btn-roxo btn-lg">
+                  Aproveite o Spotify Free
+                </a>
+
+                <a href="" class="btn btn-custom btn-branco btn-lg">
+                  Obter Spotify Premium
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <h1 class="display-1">As malhores rádios</h1>
+
+                <a href="" class="btn btn-custom btn-branco btn-lg">
+                  <i class="bi bi-music-note-beamed"></i> Ouça agora
+                </a>
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <a href="#carousel-spotify" class="carousel-control-prev" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
             </a>
 
-            <a href="" class="btn btn-custom btn-branco btn-lg">
-              Obter Spotify Premium
+            <a href="#carousel-spotify" class="carousel-control-next" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
             </a>
 
           </div>
